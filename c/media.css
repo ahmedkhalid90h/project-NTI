@@ -1,0 +1,31 @@
+
+@media only screen and (min-width: 578px ) {
+    .pos-static{
+        position: static !important;
+        margin-bottom: 10px !important;
+    }
+    .overflow-hidden:hover .card-body{
+        width: 90%;
+        right: 2%;
+        bottom: 2%;
+        left: 8%;
+    }
+    .card-body{
+        padding: 3% !important;
+    }
+}
+@media only screen and (min-width:768px) {
+    .pos-static{
+        position:absolute !important;
+        margin-bottom: 0px !important;
+    }
+    .overflow-hidden:hover .card-body{
+        width: 80%;
+        right: 2%;
+        bottom: 2%;
+        left: 4%;
+    }
+    .card-body{
+        padding: 3% !important;
+    }
+}
